@@ -1,0 +1,17 @@
+# General Parameters
+use_scan_matching: true
+use_scan_barycenter: true
+minimum_travel_distance: 0.1
+minimum_travel_heading: 0.1745                  #in radians
+scan_buffer_size: 70
+scan_buffer_maximum_scan_distance: 20.0
+
+# Correlation Parameters - Correlation Parameters
+correlation_search_space_dimension: 0.3
+correlation_search_space_resolution: 0.01
+correlation_search_space_smear_deviation: 0.03
+
+# Scan Matcher Parameters
+fine_search_angle_offset: 0.00349       # in degrees (gets converted to radians)
+coarse_search_angle_offset: 0.349       # in degrees (gets converted to radians)
+coarse_angle_resolution: 0.0349         # in degrees (gets converted to radians)
